@@ -1,0 +1,94 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    background-color: #b991b5; 
+    color: blue;
+    text-align: right;
+    text-decoration:underline;
+    font-size: 50px;
+    font-family: sans-serif; 
+    font-style: italic;
+    /* margin: 100px; */
+    border: 2px dashed black;
+    /* padding: 100px 20px 40px 10px; */
+    border-radius: 50px;
+    display: inline;
+}
+p{
+    font-weight: bold;
+    /* padding:200px */
+}
+h4{
+    color: pink;
+    background-color: black;
+}
+.orange{
+    color: orange;
+    
+}
+.background-red{
+    background-color: red;
+    color:black ;
+}
+
+#h2_specific{
+    text-decoration: line-through;
+    display: inline;
+}
+#color_blue{
+    font-size: 48px;
+    color: chartreuse;
+}
+
+#this_id{
+    color:rgb(77, 11, 5)
+}
+form>input{
+    background-color: #b991b5;
+}
+.container{
+    width:80%;
+    background-color: rgb(210, 221, 231);
+    margin: 0 auto;
+    padding: 0 20px;
+    
+}
+a{
+    display: block;
+}
+.blue,.red,.green{
+    width: 500px;
+    height: 500px;
+    
+}
+.blue{
+    border: 2px solid blue;
+}
+.red{
+    border: 2px solid red;
+    vertical-align: bottom;
+}
+.green{
+    border: 2px solid green;
+}
+.child_class{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+    display: inline-block;
+    
+}
+/* .blue>.child_class:last-child{
+    display: block;
+} */
+ .child_class_4{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+    
+ }
