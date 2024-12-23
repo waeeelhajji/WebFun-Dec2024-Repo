@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>JS on the web</h1>
+    <div class="content">
+        <p>Hello</p>
+        <ul>
+            <li onclick="console.log('hello from my HTML')">li item</li>
+            <li>li item</li>
+            <li>li item</li>
+            <li>li item</li>
+            <li>li item</li>
+            <li>li item</li>
+        </ul>
+    </div>
+    <div>
+        <p class="ptag">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi dolorum ducimus autem incidunt dignissimos
+            totam quisquam libero nobis esse. Quam voluptatibus aliquam reiciendis aliquid eaque soluta laudantium quasi
+            eius illo!</p>
+            <button  onclick="hello()">Click Me !</button>
+        </div>
+        <fieldset>
+            <button onmouseover="turnOff(this)"  onmouseout="turnOff(this)">ON</button>
+            <button  onclick="turnOff(this)">ON</button>
+            <button  onclick="turnOff(this)">ON</button>
+        </fieldset>
+        <fieldset>
+        <label>I would like to eat </label>
+<select onchange="chooseLunch(this)">
+    <option>Choose your Food</option>
+    <option>Tacos</option>
+    <option>Pasta</option>
+    <option>Sushi</option>
+</select>
+</fieldset>
+
+<div class="card">
+    <p>Hello my name is:</p>
+    <h3 id="name-tag">Example</h3>
+</div>
+<input type="text" value="Example" >
+<button onclick="setName(this)"> Search</button>
+
+
+        <script src="./script.js"></script>
+</body>
+
+</body>
+
+</html>
