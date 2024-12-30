@@ -1,0 +1,58 @@
+
+      body, html {
+        /*
+height: 100%; sets the height to 100% of the viewport.*/
+        height: 100%;
+/*margin: 0; removes the default margin.*/
+        margin: 0;
+/*font-family: Arial, sans-serif; sets the font family to Arial or a sans-serif fallback.*/        
+        font-family: Arial, sans-serif;
+      }
+ 
+      .parallax {
+/*height: 70%; sets the height to 70% of the viewport height.
+s*/        
+        height: 80%;
+        background-image: url('images/fullstack.jpg');
+/*background-attachment:fixed; keeps the background image fixed while scrolling.*/        
+        background-attachment: fixed;
+/*background-position: center; centers the background image.*/        
+        background-position: center;
+/*background-repeat: no-repeat; prevents the background image from repeating.*/        
+        background-repeat: no-repeat;
+/*background-size: cover; ensures the background image covers the entire container.*/        
+        background-size: cover;
+      }
+
+/*another parallex test */
+      .parallax1 {
+        height: 70%;
+        background-image: url('images/css.jpg');
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .parallax2 {
+        height: 70%;
+        background-image: url('images/computer.jpg');
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      
+      .content {
+/*height: 50%; sets the height to 50% of the viewport height*/
+        height: 50%;
+/*background-color: rgb(233, 226, 226); sets the background color to a light gray.*/        
+        background-color: rgb(233, 226, 226);
+/*text-align: center; centers the text.*/        
+        text-align: center;
+
+/*padding: 50px; adds 50 pixels of padding around the content.*/
+        padding: 50px;
+      }
+
